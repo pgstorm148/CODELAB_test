@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: npm install -g claat
       - name: Build codelab
-        run: claat export your-doc-source
+        run: claat export Codelab.html
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
